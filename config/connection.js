@@ -14,4 +14,12 @@ if (process.env.JAWSDB_URL) {
   });
 }
 
-module.exports = sequelize;
+const db = {};
+
+db.Sequelize = Sequelize;
+db.sequelize = sequelize;
+
+// VVVVV check if this is correct path VVVV
+db.images = require("./image.model.js")(sequelize, Sequelize);
+
+module.exports = db;
