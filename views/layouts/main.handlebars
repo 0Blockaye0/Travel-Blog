@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
+  <title>Travel Blogger</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<div class="wrapper">
+    <header>
+      <nav class="uk-navbar-container" style="z-index: 980; background-color: #f1f2f1; color: black;" uk-sticky="top: 200;" uk-navbar>
+    <div class="uk-navbar-center">
+
+      <div class="uk-navbar-center-left">
+        <div>
+          <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="../home">Home</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <a class="uk-text-bolder uk-navbar-item uk-logo" style="color:black;" href="../about">Travel Blogger</a>
+
+      <div class="uk-navbar-center-right">
+        <div>
+          <ul class="uk-navbar-nav">
+            {{#if loggedIn}}
+            <form action="/users/logout" method="GET">
+              <li class=""><input type="submit" value="Logout" id="create-post"></li>
+              </form>
+              <li>
+                  <a href="" id="create-post"><button uk-toggle="target: #my-id" type="button" id="create-post">New Post</button></a>
+              </li>
+            {{else}}
+              <li class=""><a href="../profile">Account</a></li>
+            {{/if}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+    </header>
+    <main>
+      {{{ body }}}
+    </main>
+    <div class="spacer">
+      {{!-- spacer for footer --}}
+    </div>
+    <footer class="uk-text-center uk-position-bottom" style="background-color: #f1f2f1; min-height: 80px;">
+      <p class="uk-flex-middle">Travel Blogger© All Right Reserved</p>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>
+</body>
+
+</html>

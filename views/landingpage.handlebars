@@ -1,0 +1,62 @@
+<div class="uk-section uk-background-cover uk-flex-column uk-flex-center@s uk-text-center uk-padding-remove" uk-height-viewport="expand:true">
+    
+    <div class="uk-container uk-flex uk-text-center uk-flex-center" style="z-index: 980; background-color: #f1f2f1; color: black; min-height: calc(15vh); max-width: none;">
+        <h1 class="uk-text-meta uk-text-large uk-text-bold uk-margin-auto-vertical uk-margin-medium-left" style=";">A simple blog to write about your travels.</h1>
+    </div>
+
+    <div class="uk-container" style="min-height: calc(65vh);"></div>
+
+    <div class="uk-container uk-position-center uk-border-rounded" style="z-index: 980; background-color: #b6c1b6c7; color: black; max-width: none">
+        <h2 class="uk-margin-medium-top uk-margin-remove-bottom">Sign In</h2>
+            <fieldset class="uk-fieldset">
+                <div class="uk-margin uk-margin-remove-top uk-flex uk-flex-column uk-flex-middle">
+                    <form action="/users/login" method="POST">
+                        <input class="uk-input uk-form-width-medium uk-margin-top uk-text-center" type="text" placeholder="Username" name="username" required> 
+                        <input class="uk-input uk-form-width-medium uk-margin uk-text-center" type="password" placeholder="Password" name="password" required>
+                        <input class="uk-button uk-button-default uk-margin" type="submit" value="login">
+                        <div class="" style="background-color: #b6c1b600; min-height: 20px;"></div>
+                        <button class="uk-button uk-button-default" uk-toggle="target: #register-modal" type="button"><a href="#" style="color: black">Register</a></button>
+                    </form>
+                    </div>
+                </div>
+            </fieldset>
+            
+        
+        
+            
+            {{!-- <button class="uk-button uk-button-default uk-margin-large-left" type="submit"><a href="#" style="color: #999">Login</a></button> --}}
+        </div>
+        
+    </div>
+
+    <div id="register-modal" uk-modal>
+        <div class="uk-modal-dialog uk-margin-auto-vertical uk-border-rounded uk-container uk-border-rounded" style="z-index: 980; background-color: #c1dfc1c7; color: black; max-width: none">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+                <h2 class="uk-margin-medium-top uk-text-center uk-margin-remove-bottom">Register</h2>
+            <div class="uk-modal-body uk-overflow-auto uk-height-medium" id="register-background">
+                <form action="/users/register" method="POST">
+                    <fieldset class="uk-fieldset">
+                        <div class="uk-grid-column uk-grid" >
+                          <div class="uk-width-1-2@s uk-height-small uk-text-center uk-margin">
+                            <input class="uk-input uk-form-width-medium uk-margin-top" type="text" placeholder="Username" name="username" required>
+                            <input class="uk-input uk-form-width-medium uk-margin" type="password" placeholder="Password" name="password" required>
+                            {{!-- <input class="uk-input uk-form-width-medium uk-margin-bottom" type="password" placeholder="Confirm Password"> --}}
+                            <input class="uk-input uk-form-width-medium uk-margin-auto" type="text" placeholder="Location" id="location" name="location" required>
+                            <div class="uk-width-1-2@s uk-margin-top uk-text-center uk-height-medium">
+                            <textarea class="uk-textarea uk-height-1-1" id="bio-box" style="resize: none;" cols="25" placeholder="Bio" name="bio" required></textarea>
+                          </div>
+                          <div class="uk-button uk-button-default" id="register-button-modal"><a href="#" style="color: black"></a>
+                              <input type="submit" id="register-submit">
+                {{!-- <button class="uk-button uk-button-default uk-modal-close" type="submit">Submit</button> --}}
+            </div>
+                          
+                          </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>

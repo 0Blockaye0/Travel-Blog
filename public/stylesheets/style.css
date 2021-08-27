@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: #333;
+}
+
+html {
+  background: url("../traveler.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+h1 {
+  /* padding-bottom: 2%;
+  color: #f1f2f1;
+  margin: 2%;
+  margin-top: 0%; */
+
+  /* OR  */
+
+  padding: 2%;
+  color: #f1f2f1;
+  margin: 0;
+  margin-top: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: #1642e3a7;
+  font-weight: bold;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: #1642e3e8;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-list {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ol {
+  padding: 0%;
+}
+
+.uk-width-1-2 {
+  /* width: calc(100% * 2 / 3.001); */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+#post-div {
+  /* background-color: rgb(90 216 228 / 87%); */
+  background-color: #b6c1b6eb;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 61%);
+  /* max-width: ; */
+  border-radius: 5px;
+}
+
+.post-creator {
+  margin: auto;
+}
+
+#create-post {
+  color: #59de59bf;
+}
+
+#create-post:hover {
+  color: #01c101;
+}
+
+.profile-head {
+  display: inline;
+}
+
+.title {
+  /* display: flex;
+  justify-content: center;
+  margin-top: 5%; */
+
+  /* OR  */
+
+  display: flex;
+  justify-content: center;
+  background-color: #b6c1b6eb;
+  color: black;
+  font-weight: 100;
+  width: 100%;
+}
+
+#newblog-input {
+  height: 250px;
+}
+
+.uk-text-meta {
+  color: #222;
+}
+
+element.style {
+  bottom: 0px;
+  position: static;
+  background-color: #f1f2f1;
+  min-height: 80px;
+  width: 50%;
+}
+
+
+
+.uk-margin {
+  margin-bottom: 0px;
+}
+
+.uk-button {
+  margin-top: 2%;
+  /* margin: 0px 0px 0px; */
+}
+
+.uk-button-default {
+  background-color: #95c78f6b;
+}
+
+.uk-button-default:hover {
+  background-color: #79f16bef;
+}
+
+element.style {
+  z-index: 980;
+  background-color: #b6c1b6c7;
+  color: black;
+  max-width: none;
+}
+
+.uk-container {
+  padding-bottom: 30px;
+}
+
+.uk-modal-body {
+  /* background-color: rgb(0 221 249 / 77%); */
+  background-color: #b6c1b6eb;
+  padding-bottom: 30px;
+}
+.form-submit-button {
+  background: #0066a2;
+  color: white;
+  border-style: outset;
+  border-color: #0066a2;
+  height: 50px;
+  width: 100px;
+  font: bold 15px arial, sans-serif;
+}
+
+.uk-navbar-nav {
+  display: contents;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.uk-position-bottom {
+  position: absolute;
+  bottom: auto;
+}
+
+.edit-link {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: rgba(217, 224, 30, 0.711);
+  color: rgb(0, 0, 0);
+}
+
+.edit-link:hover {
+  background-color: rgb(232, 239, 13);
+}
+
+#edit-delete-post {
+  margin-left: 10%;
+  margin-right: auto;
+  margin-bottom: 10%;
+  width: auto;
+  background-color: rgba(217, 224, 30, 0.711);
+}
+
+.spacer {
+  height: 20%;
+  margin: 15%;
+}
+#edit-delete-post:hover {
+  background-color: rgb(232, 239, 13);
+}
+
+#edit-post-submit-btn:hover {
+  background-color: #47e736ed;
+}
+
+#edit-post-delete-btn {
+  background-color: #e530309f;
+}
+
+#edit-post-delete-btn:hover {
+  background-color: #e53030;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.about-spacer {
+  height: 500px;
+}
+/* .uk-input {
+    margin-bottom: 2%;
+  } */
+  footer {
+    margin-top: 10px;
+  }
+
+  .uk-height-1-1 {
+    height:50%;
+  }
+
+#location {
+  margin-top:20px;
+}
+
+#register-background {
+  background-color: #c1dfc100;
+}
+
+#bio-box {
+  max-width: 1000%;
+  width: 350%;
+}
+
+/* #register-submit {
+  opacity: 100%;
+} */
+
+#register-button-modal {
+  margin-top: -200px;
+} 
