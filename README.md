@@ -7,10 +7,20 @@
  
  Note: Users cannot upload photos at this time. This feature will be added in future deployments.
  
+ 
+ Users may find the inspiration for the application in the about section...
  ![Screenshot](./images/screenshot-1.png)
+ 
+ create an account or login...
  ![Screenshot](./images/screenshot-2.png)
+ 
+ view all users posts...
  ![Screenshot](./images/screenshot-3.png)
+ 
+ create/edit a post
  ![Screenshot](./images/screenshot-4.png)
+ 
+ 
   ## Table of Contents
   * [Installation](#installation) 
   * [Contributers](#contributers)
