@@ -7,7 +7,7 @@
  
  Note: Users cannot upload photos at this time. This feature will be added in future deployments.
  
- ![Screenshot](./assets/images/screenshot.png)
+ ![Screenshot](./images/screenshot.png)
   ## Table of Contents
   * [Installation](#installation) 
   * [Contributers](#contributers)
