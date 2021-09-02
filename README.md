@@ -27,7 +27,7 @@
   * [Questions](#questions)
   
   ## Installation
-  To install the application clone the following [Github repository](https://github.com/Chrispruiz/tech-blog.git) to your computer. Create a .env file in the root of your directiory and add the following:
+  To install the application clone the following [Github repository](https://github.com/0Blockaye0/Travel-Blog) to your computer. Create a .env file in the root of your directiory and add the following:
 
       DB_NAME='travel_blog'
       DB_USER='root'
