@@ -1,4 +1,4 @@
-# Travel-Blogger
+# Travel-Blog
   
   ## Description: 
   Travel Blogger is a site for travelers to share experiences, stories, photos, and plan future trips. The inspiration for the site was the inability to travel for the past year due to Covid-19 and the need to connect with others. Travel Blogger allows people who may not have friends or family who have interest in travel, but would like to share stories or meet new travel friends with people who share their passion for traveling.
