@@ -8,7 +8,7 @@
  Note: Users cannot upload photos at this time. This feature will be added in future deployments.
  
   ## Deployed Link
- [Click ME I'm Live!!]()
+ [Click ME I'm Live!!](https://the-travelblog.herokuapp.com/)
  
  
  Users may find the inspiration for the application in the about section...
