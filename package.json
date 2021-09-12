@@ -1,5 +1,5 @@
 {
-  "name": "travel-blogger",
+  "name": "travel-blog",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chrispruiz/Travel-Blogger.git"
+    "url": "git+https://github.com/0blockaye0/Travel-Blog.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Chrispruiz/Travel-Blogger/issues"
+    "url": "https://github.com/0blockaye0/Travel-Blog/issues"
   },
-  "homepage": "https://github.com/Chrispruiz/Travel-Blogger#readme",
+  "homepage": "https://github.com/0blockaye0/Travel-Blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
